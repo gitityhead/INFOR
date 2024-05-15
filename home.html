@@ -7,26 +7,18 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, height=device-height">
         <title>Signup</title>
-
-        <script>
-            function signup1() {
-                window.AppInventor.setWebViewString("signup");
-            }
-
-            function signin1() {
-                window.AppInventor.setWebViewString("signin");
-            }
-        </script>
-
+        
+        <script src="home.js"></script>
     </head>
 <body>
     <div class="boxes1">
         <img style="box-sizing: content-box; max-width: 100%; max-height: 100%;" src="bgdown.png" alt="" width="375px" height="700px">
         <h1 class="centered" style="font-size: 35px; font-family: Monocraft;">Welcome to QuickSolve</h1>
 
-        <button onclick="signin1" style="font-family: Monocraft; width: 83%;" type="button" class="btn button btn-primary centeredw3">Sign in</button>
+        <button onclick="signin1()" style="font-family: Monocraft; width: 83%;" type="button" class="btn button btn-primary centeredw3">Sign in</button>
 
-        <button onclick="signup1" style="font-family: Monocraft; bottom: 7%; width: 83%" type="button" class="btn-block btn button btn-success centeredw3">Sign up</button>
+        <button onclick="signup1()" style="font-family: Monocraft; bottom: 7%; width: 83%" type="button" class="btn-block btn button btn-success centeredw3">Sign up</button>
     </div>
+
 </body>
 </html>
