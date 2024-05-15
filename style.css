@@ -1,0 +1,44 @@
+@font-face {
+    font-family: Monocraft;
+    src: url(Monocraft.ttf);
+}
+
+body {
+    background-color: black;
+    overflow: hidden;
+}
+
+.button {
+    font-size: 14px;
+}
+
+h1 {
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    
+    bottom: 27%;
+}
+
+.centeredw3 {
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.boxes1 {
+    position: absolute;
+    text-align: center;
+    color: white;
+}
+
+.overlay {
+    position: absolute;
+    top: 450px;
+    left: 0;
+    background-color: white; /* White overlay */
+    opacity: 1; /* Adjust the opacity as needed */
+  }
