@@ -3,5 +3,5 @@ function signup1() {
 }
 
 function signin1() {
-    window.AppInventor.setWebViewString("signin");
+    windowAppInventor.setWebViewString("signin")
 }
