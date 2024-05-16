@@ -16,18 +16,6 @@ h1 {
     color: white;
 }
 
-.centered {
-    position: absolute;
-    bottom: 27%;
-}
-
-.centeredw3 {
-    position: absolute;
-    bottom: 15%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 .boxes1 {
     position: absolute;
     text-align: center;
