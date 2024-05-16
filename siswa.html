@@ -7,9 +7,13 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, height=device-height">
         <title>Siswa</title>
+
+        
     
     </head>
 <body>
+    <input type="file" id="fileInput" style="display: none;" onchange="handleFileChange(this.files)">
+
     <div class="boxes1">
         <div class="overlay" style="height: 450px; width: 100%;">
             <label style="position: absolute; text-align: left; color: black; font-size: 23px; top: 25px; left: 20px; font-family: Monocraft;">Siswa</label>
@@ -18,7 +22,7 @@
                 <img src="upload1.png" style="position: relative; width: 200px; height: 200px;">
             </button>
 
-            <a style="top: 75px; position: relative; font-family: Monocraft; width: 83%;" type="button" class="btn button btn-primary centeredw3" href="uploaded.html">
+            <a onclick="openFilePicker()" style="top: 75px; position: relative; font-family: Monocraft; width: 83%;" type="button" class="btn button btn-primary centeredw3" href="uploaded.html">
             Upload dan tanya!
             </a>
         </div>
@@ -28,7 +32,18 @@
         </table>
 
         <img style="box-sizing: content-box;" src="bgdown.png" alt="" width="375px" height="700px">
-
+        
+        <script>
+            function openFilePicker() {
+                document.getElementById('fileInput').click();
+            }
+        
+            function handleFileChange(files) {
+                var selectedFile = files[0];
+                console.log('Selected file:', selectedFile);
+                // Do something with the selected file
+            }
+        </script>
     </div>
 </body>
 </html>
