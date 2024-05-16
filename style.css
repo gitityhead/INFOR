@@ -3,11 +3,6 @@
     src: url(Monocraft.ttf);
 }
 
-body {
-    background-color: black;
-    overflow: hidden;
-}
-
 .button {
     font-size: 14px;
 }
